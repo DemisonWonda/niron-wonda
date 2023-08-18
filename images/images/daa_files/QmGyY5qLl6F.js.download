@@ -1,0 +1,5 @@
+;/*FB_PKG_DELIM*/
+
+__d("CometGamingVideoLiveViewerCountContext",["FBLogger","emptyFunction","react"],(function(a,b,c,d,e,f,g){"use strict";a=d("react");b=a.createContext({subscribe:function(a){c("FBLogger")("gaming_video").blameToPreviousFrame().mustfix("Someone is trying to subscribe to live viewer count updates for video broadcast `%s`. This will not work unless the caller has a `CometGamingVideoLiveViewerCountManager` component as one of its ancestors.",a);return c("emptyFunction")}});g["default"]=b}),98);
+__d("GamingCoplayFalcoEventFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f,g){"use strict";a=c("getFalcoLogPolicy_DO_NOT_USE")("1743645");b=d("FalcoLoggerInternal").create("gaming_coplay_falco_event",a);e=b;g["default"]=e}),98);
+__d("XCometGamingVideoRecentlyWatchedControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/gaming/recent/streamers/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);

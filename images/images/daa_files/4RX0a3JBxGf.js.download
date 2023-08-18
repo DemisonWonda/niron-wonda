@@ -1,0 +1,8 @@
+;/*FB_PKG_DELIM*/
+
+__d("ProfileCometFeaturedPinLimitText",["fbt"],(function(a,b,c,d,e,f,g,h){"use strict";a=h._("__JHASH__-FPLmQkwrZY__JHASH__");g.pinLimitErrorText=a}),98);
+__d("CometSaveCollectionConstants",[],(function(a,b,c,d,e,f){"use strict";a=36;b=48;c=5;d=["CONTRIBUTOR"];e="CONTRIBUTOR";var g=40,h="2581223601936986",i=16;f.COLLECTION_AVATAR_SIZE_MEDIUM=a;f.COLLECTION_AVATAR_SIZE_LARGE=b;f.COLLECTION_FACEPILE_CONTRIBUTORS_LIMIT=c;f.COLLECTION_FACEPILE_CONTRIBUTORS_ROLES=d;f.COLLECTION_CONTRIBUTOR_ROLE_DEFAULT=e;f.COLLECTION_NAME_MAX_LENGTH=g;f.MANUAL_COLLECTION_TEMPLATE_ID=h;f.PRIVACY_ICON_SIZE=i}),66);
+__d("CometSaveLoggingContext",["react"],(function(a,b,c,d,e,f,g){"use strict";a=d("react");b=a.createContext({collectionID:null,referrer:null,surface:"dashboard",surfaceGraphQL:"DASHBOARD",surfaceGraphQL_legacy:"dashboard"});g["default"]=b}),98);
+__d("useCometSaveLoggingContext",["CometSaveLoggingContext","react"],(function(a,b,c,d,e,f,g){"use strict";var h=d("react").useContext;function a(){return h(c("CometSaveLoggingContext"))}g["default"]=a}),98);
+__d("XCometSaveDashboardControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/saved/",Object.freeze({unlisted_only:!1}),void 0);b=a;g["default"]=b}),98);
+__d("CometSaveSavableMoreActionsMenuQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="4468883469884975"}),null);
